@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
         Vector3 velocity = rigidbody.velocity;
         float beforeX = velocity.x;
         velocity.x = Mathf.Clamp(velocity.x + (acceleration * Time.deltaTime * movement), -topSpeed, topSpeed);
-        Debug.Log("Before: " + beforeX + ", After: " + velocity.x);
         rigidbody.velocity = velocity;
     }
 }
