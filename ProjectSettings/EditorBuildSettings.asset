@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Firemaking.unity
+    guid: ac9b0bbe4b08f224398685ef73377312
   m_configObjects: {}
