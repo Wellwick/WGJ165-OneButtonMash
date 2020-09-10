@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
     }
 
     public void WarmUp(float amount) {
-        Debug.Log("Warming up " + amount);
+        //Debug.Log("Warming up " + amount);
         temperature = Mathf.Clamp(temperature + amount, temperatureMinimum, temperatureStart);
     }
 

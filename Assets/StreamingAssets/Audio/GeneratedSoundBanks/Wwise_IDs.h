@@ -13,8 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FIRE = 2678880713U;
+        static const AkUniqueID FIRECREATED = 2761700895U;
+        static const AkUniqueID FIRESTICKS = 2727520598U;
         static const AkUniqueID FOOTSTEPS_SNOW = 4183820092U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID FIREPOWER = 3324700884U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

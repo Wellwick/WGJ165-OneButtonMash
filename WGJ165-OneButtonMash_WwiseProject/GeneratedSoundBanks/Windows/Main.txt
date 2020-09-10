@@ -1,12 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2678880713	Fire			\Default Work Unit\Fire	
+	2727520598	FireSticks			\Default Work Unit\FireSticks	
+	2761700895	FireCreated			\Default Work Unit\FireCreated	
 	4183820092	FootSteps_Snow			\Default Work Unit\FootSteps_Snow	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3324700884	FirePower			\Default Work Unit\FirePower	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	53127304	336765__luminadii__snow-crunch-01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_928044B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01		11509
 	65880294	336765__luminadii__snow-crunch-01_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_809974B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_02		14434
+	75522181	378641__13fpanska-kolar-jan__fire-stick-shake-2_03	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_D51618C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_03		3648
+	172475570	378641__13fpanska-kolar-jan__fire-stick-shake-2_04	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_9BE04CF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_04		4091
+	258508758	378641__13fpanska-kolar-jan__fire-stick-shake-2	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_77323960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2		4144
+	265239724	378641__13fpanska-kolar-jan__fire-stick-shake-2_05	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3E0F3DB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_05		3530
+	265728727	378641__13fpanska-kolar-jan__fire-stick-shake-2_06	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_11025481.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_06		3469
+	293373779	378641__13fpanska-kolar-jan__fire-stick-shake-2_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_8D6B6B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_01		4463
 	323231869	336763__luminadii__snow-crunch-02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_26485D33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02		10197
 	373587070	336765__luminadii__snow-crunch-01_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_B15108D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_01		12650
+	425717141	378641__13fpanska-kolar-jan__fire-stick-shake-2_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3ED70241.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_02		4038
+	529392469	Fire Started	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\186374__samararaine__bonfire-being-lit_88EC814B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Started		23105
 	626135259	336765__luminadii__snow-crunch-01_03	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_6D3AE009.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_03		14539
 	685274221	336763__luminadii__snow-crunch-02_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_FE1BA6B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_01		6984
 	919643493	336763__luminadii__snow-crunch-02_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_4B93651F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_02		9511
+	1009744732	74963__zmb94__campfire-1	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\74963__zmb94__campfire-1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire\74963__zmb94__campfire-1		909288
 

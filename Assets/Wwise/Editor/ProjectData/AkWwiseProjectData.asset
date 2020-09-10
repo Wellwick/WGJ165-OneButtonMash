@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e24dac750cc42b42a5ea48225eba0fec
     GuidInternal: 
-    m_lastTime: -8586018690550633606
+    m_lastTime: -8586018598553138769
     List:
     - name: Main
       guid: 0fe9fd962ea9dc4e8ac0ae56e1a02b47
@@ -68,8 +68,44 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 99556c1d80d976408b1e1338f6e4e56a
     GuidInternal: 
-    m_lastTime: -8586018690550688654
+    m_lastTime: -8586018598553163788
     List:
+    - name: Fire
+      guid: 0d90cb1a575ca7478e7b7bc20d7dc583
+      id: 2678880713
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Fire
+        ObjectType: 3
+      Path: Default Work Unit\Fire
+      maxAttenuation: 20
+      maxDuration: 65.89051
+      minDuration: 39.5425
+    - name: FireCreated
+      guid: 8faf58726420ff4b9f2afeda7747cff3
+      id: 2761700895
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FireCreated
+        ObjectType: 3
+      Path: Default Work Unit\FireCreated
+      maxAttenuation: 0
+      maxDuration: 1.863869
+      minDuration: 1.101485
+    - name: FireSticks
+      guid: 2e0a77776ab8594ea6f9e568299c3e2e
+      id: 2727520598
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FireSticks
+        ObjectType: 3
+      Path: Default Work Unit\FireSticks
+      maxAttenuation: 0
+      maxDuration: 0.417231
+      minDuration: 0.193633
     - name: FootSteps_Snow
       guid: e2857db064e6a54c840e3af735ac3533
       id: 4183820092
@@ -90,8 +126,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 32f9b5e71ef2f3488f2f29a1a1a6ad01
     GuidInternal: 
-    m_lastTime: -8586018699046095041
-    List: []
+    m_lastTime: -8586018581634753221
+    List:
+    - name: FirePower
+      guid: b57e4c55a799bf4686626cb5c171c16c
+      id: 3324700884
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FirePower
+        ObjectType: 13
+      Path: Default Work Unit\FirePower
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

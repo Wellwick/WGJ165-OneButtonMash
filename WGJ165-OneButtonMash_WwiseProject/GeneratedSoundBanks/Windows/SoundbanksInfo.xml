@@ -21,6 +21,54 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Fire" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="39.542500" DurationMax="65.890511">
+					<IncludedMemoryFiles>
+						<File Id="1009744732" Language="SFX">
+							<ShortName>74963__zmb94__campfire-1.wav</ShortName>
+							<Path>SFX\74963__zmb94__campfire-1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2761700895" Name="FireCreated" ObjectPath="\Events\Default Work Unit\FireCreated" DurationType="OneShot" DurationMin="1.101485" DurationMax="1.863869">
+					<IncludedMemoryFiles>
+						<File Id="529392469" Language="SFX">
+							<ShortName>186374__samararaine__bonfire-being-lit.wav</ShortName>
+							<Path>SFX\186374__samararaine__bonfire-being-lit_88EC814B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2727520598" Name="FireSticks" ObjectPath="\Events\Default Work Unit\FireSticks" DurationType="OneShot" DurationMin="0.193633" DurationMax="0.417231">
+					<IncludedMemoryFiles>
+						<File Id="75522181" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_D51618C1.wem</Path>
+						</File>
+						<File Id="172475570" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_9BE04CF7.wem</Path>
+						</File>
+						<File Id="258508758" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_77323960.wem</Path>
+						</File>
+						<File Id="265239724" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3E0F3DB8.wem</Path>
+						</File>
+						<File Id="265728727" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_11025481.wem</Path>
+						</File>
+						<File Id="293373779" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_8D6B6B62.wem</Path>
+						</File>
+						<File Id="425717141" Language="SFX">
+							<ShortName>378641__13fpanska-kolar-jan__fire-stick-shake-2.wav</ShortName>
+							<Path>SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3ED70241.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4183820092" Name="FootSteps_Snow" ObjectPath="\Events\Default Work Unit\FootSteps_Snow" DurationType="OneShot" DurationMin="0.390928" DurationMax="0.947288">
 					<IncludedMemoryFiles>
 						<File Id="53127304" Language="SFX">
@@ -54,6 +102,9 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3324700884" Name="FirePower" ObjectPath="\Game Parameters\Default Work Unit\FirePower"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
