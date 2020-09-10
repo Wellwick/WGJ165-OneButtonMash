@@ -603,7 +603,7 @@
 											</Point>
 											<Point>
 												<XPos>100</XPos>
-												<YPos>0</YPos>
+												<YPos>-4.23016</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -929,6 +929,110 @@
 					<Playlist>
 						<ItemRef Name="Heartbeat" ID="{044B410C-E55A-4BF3-82EB-934563060DEE}"/>
 					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pickup" ID="{64FB1717-219D-4A10-A0A1-C8F46F3B823F}" ShortID="474521221">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6881DF12-CC62-449E-9E1B-78CC14AD2FA0}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="859"/>
+											<Property Name="Min" Type="Real64" Value="-834"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="411177__silverillusionist__pick-up-item-1" ID="{E5C3E320-5277-45B5-9401-3FD9A1A90731}" ShortID="1007594485">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3216C519-1AB6-49BC-9451-509C23C42770}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="411177__silverillusionist__pick-up-item-1" ID="{24BB30BC-F097-4A93-A8B4-DEC3536C3F85}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0329297145855587"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0286682221097805"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>411177__silverillusionist__pick-up-item-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="833136122"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="411177__silverillusionist__pick-up-item-1" ID="{24BB30BC-F097-4A93-A8B4-DEC3536C3F85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="411178__silverillusionist__pick-up-item-2" ID="{B224C8E0-A081-4611-A439-8D8F409A1844}" ShortID="896518493">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{33E730FE-694A-401F-9293-BAA99A2243F2}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="411178__silverillusionist__pick-up-item-2" ID="{13969FB7-58B1-4ACE-9854-3D4159B84991}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0335750829257323"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0352538370720189"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>411178__silverillusionist__pick-up-item-2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="552339341"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="411178__silverillusionist__pick-up-item-2" ID="{13969FB7-58B1-4ACE-9854-3D4159B84991}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

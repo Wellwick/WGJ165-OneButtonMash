@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{EE65F46C-E71A-474A-9143-7D453ECB0E62}">
 			<PropertyList>
 				<Property Name="Event Action List\{1ACB900D-5C57-47A7-8E7B-7BC20D7DC583}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{213D7768-8AF5-46A2-B3A7-B0B871CBB7FB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{23172A9B-BF62-47D8-84C2-E525792C847D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6736DD2E-3CB3-4CED-979F-0980CE261A65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7258AF8F-2064-4BFF-9F2A-FEDA7747CFF3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{77770A2E-B86A-4E59-A6F9-E568299C3E2E}\x64_Expand States" Type="string" Value=""/>
@@ -24,6 +26,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="7+jgB6/AxUKJjPMswHYC7/JbObyjD1xFm9JbZPZPMMg="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="D+n9li6p3E6KwK5W4aArRw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
+				<Property Name="Interactive Music\x64_{2CE95AE0-0774-4876-A9C3-275D21DB3E35} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP73J95IIyTxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAIG9A"/>
 				<Property Name="Interactive Music\x64_{48A92115-31F3-4990-9D13-5E7DC1E64FB7} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3LZR7vNuf0/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{6CFF4DE3-3439-44A0-8DF0-FC8E104C921A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP7VZ1dV1d0BAAAAAAAAA8D8AAAAAAABOQAAAAAAA4HVA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -33,10 +36,14 @@
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{27262E9E-97BB-4E91-A398-AB58D474B2FF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6317F55B-0F40-46B6-9863-2F9735A5D178}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6950B46B-FD17-4911-95DF-9B0ED6D7182A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{76827C78-E7D6-4BDA-A7F4-01959AE8D2A0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{7A014913-89F3-4590-A1CC-03B582E25424}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{80D3CD72-3E0B-4C6D-9C3F-1BA8D871EECD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{993B3646-FDB1-4FE7-8A3F-326029B67816}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{C4619CC5-F90A-49DC-8525-7C8793085444}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F1372E47-D003-411E-96F9-B2532D3F48EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{FC51CA29-C877-4FF9-BDF1-F87C9A5219C0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">

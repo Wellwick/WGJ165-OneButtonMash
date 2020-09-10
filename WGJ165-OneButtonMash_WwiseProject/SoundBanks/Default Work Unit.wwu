@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{96FDE90F-A92E-4EDC-8AC0-AE56E1A02B47}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Fire" ID="{1ACB900D-5C57-47A7-8E7B-7BC20D7DC583}" WorkUnitID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup" ID="{23172A9B-BF62-47D8-84C2-E525792C847D}" WorkUnitID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FireCreated" ID="{7258AF8F-2064-4BFF-9F2A-FEDA7747CFF3}" WorkUnitID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FootSteps_Snow" ID="{B07D85E2-E664-4CA5-840E-3AF735AC3533}" WorkUnitID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{6736DD2E-3CB3-4CED-979F-0980CE261A65}" WorkUnitID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" Origin="Manual" Filter="7"/>

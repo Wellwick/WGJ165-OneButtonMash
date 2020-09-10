@@ -18,7 +18,24 @@ namespace AK
         static const AkUniqueID FIRECREATED = 2761700895U;
         static const AkUniqueID FIRESTICKS = 2727520598U;
         static const AkUniqueID FOOTSTEPS_SNOW = 4183820092U;
+        static const AkUniqueID PICKUP = 3978245845U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAMESTATE
+        {
+            static const AkUniqueID GROUP = 4091656514U;
+
+            namespace STATE
+            {
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PLAY = 1256202815U;
+            } // namespace STATE
+        } // namespace GAMESTATE
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {

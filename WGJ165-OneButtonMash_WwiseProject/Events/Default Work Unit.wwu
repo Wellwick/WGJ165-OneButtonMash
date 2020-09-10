@@ -56,17 +56,39 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{D464BC0B-D31C-4A52-826B-FCD0FCCCF6A8}" ShortID="373563128">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{C4619CC5-F90A-49DC-8525-7C8793085444}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{78377F43-2456-4BC2-8047-AEA8CB94DF71}" ShortID="311923662">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Heartbeat" ID="{CF3A4D67-920B-4765-BB83-0376463B5D53}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB706A14-DF84-4FF3-890D-B659ED087326}" ShortID="779278121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameState" ID="{6317F55B-0F40-46B6-9863-2F9735A5D178}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pickup" ID="{23172A9B-BF62-47D8-84C2-E525792C847D}">
+					<ChildrenList>
+						<Action Name="" ID="{CBAC1F6E-1502-4919-BD22-E655D8D8C0E8}" ShortID="210275901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{64FB1717-219D-4A10-A0A1-C8F46F3B823F}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndScreen" ID="{213D7768-8AF5-46A2-B3A7-B0B871CBB7FB}">
+					<ChildrenList>
+						<Action Name="" ID="{C34251A3-59C9-408B-995D-AE6BC9663CA4}" ShortID="1001672237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End" ID="{2CE95AE0-0774-4876-A9C3-275D21DB3E35}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

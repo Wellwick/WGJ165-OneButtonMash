@@ -84,6 +84,36 @@
 							<Path>SFX\wgj165 music\horns2_110bpm_6B_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4DB74ED6-BF28-4C73-9DA3-66A2A9275284}">
+							<Media>
+								<File Id="24869684"/>
+								<File Id="351239409"/>
+								<File Id="1054230325"/>
+								<File Id="679160594"/>
+								<File Id="843084179"/>
+								<File Id="715644257"/>
+								<File Id="753549156"/>
+								<File Id="357145713"/>
+								<File Id="1040487628"/>
+								<File Id="474811819"/>
+								<File Id="402954967"/>
+								<File Id="158740576"/>
+								<File Id="654242975"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5047E2E8-E940-48BC-83D4-7C9DC6CF2121}">
+							<Media>
+								<File Id="24869684"/>
+								<File Id="351239409"/>
+								<File Id="715644257"/>
+								<File Id="474811819"/>
+								<File Id="402954967"/>
+								<File Id="158740576"/>
+								<File Id="654242975"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Fire" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="39.542500" DurationMax="65.890511">
 					<IncludedMemoryFiles>
@@ -165,11 +195,32 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup" DurationType="OneShot" DurationMin="0.228327" DurationMax="0.657686">
+					<IncludedMemoryFiles>
+						<File Id="552339341" Language="SFX">
+							<ShortName>411178__silverillusionist__pick-up-item-2.wav</ShortName>
+							<Path>SFX\411178__silverillusionist__pick-up-item-2_9FFDD1DC.wem</Path>
+						</File>
+						<File Id="833136122" Language="SFX">
+							<ShortName>411177__silverillusionist__pick-up-item-1.wav</ShortName>
+							<Path>SFX\411177__silverillusionist__pick-up-item-1_DAB12908.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2060306874" Name="Warmth" ObjectPath="\Game Parameters\Default Work Unit\Warmth"/>
 				<GameParameter Id="3324700884" Name="FirePower" ObjectPath="\Game Parameters\Default Work Unit\FirePower"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None"/>
+						<State Id="1256202815" Name="Play" ObjectPath="\States\Default Work Unit\GameState\Play"/>
+						<State Id="529726532" Name="End" ObjectPath="\States\Default Work Unit\GameState\End"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

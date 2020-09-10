@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
         inWinTrigger = false;
         currentTree = null;
         UpdateWoodCount();
+        AkSoundEngine.SetState("GameState", "Play");
     }
 
     private void Update() {
@@ -60,6 +61,7 @@ public class Player : MonoBehaviour
         AkSoundEngine.SetRTPCValue("Warmth", ((1.0f - completed) * 100.0f));
         if (active && Input.GetKeyDown(KeyCode.Space) && currentTree) {
             if (currentTree.ClaimWood()) {
+                AkSoundEngine.PostEvent("Pickup", gameObject);
                 woodNotice.enabled = false;
                 currentWood++;
                 UpdateWoodCount();
@@ -109,7 +111,8 @@ public class Player : MonoBehaviour
         pos.y -= 1f;
         Instantiate(firePrefab, pos, new Quaternion());
         if (inWinTrigger) {
-            FindObjectOfType<GameState>().WinGame(); 
+            FindObjectOfType<GameState>().WinGame();
+            AkSoundEngine.SetState("GameState", "End");
         }
         currentWood -= fireCost;
         UpdateWoodCount();
