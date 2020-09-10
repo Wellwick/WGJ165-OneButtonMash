@@ -65,6 +65,12 @@ public class GameState : MonoBehaviour
     }
 
     public void SwitchActive() {
+        if ((playerActive && !player.CanBuildFire()) || finished) {
+            // No point swapping if the player is building a fire
+            // Or if we are finished
+            return;
+        }
+
         // Swap!
         playerActive = !playerActive;
 

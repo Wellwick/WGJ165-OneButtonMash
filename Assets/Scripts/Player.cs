@@ -24,6 +24,10 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject firePrefab;
 
+
+    [SerializeField]
+    private int fireCost = 5;
+
     private Tree currentTree;
     private int currentWood = 0;
 
@@ -52,7 +56,7 @@ public class Player : MonoBehaviour
         float completed = (temperature - temperatureMinimum) / (temperatureStart - temperatureMinimum);
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
-        if (Input.GetKeyDown(KeyCode.Space) && currentTree) {
+        if (active && Input.GetKeyDown(KeyCode.Space) && currentTree) {
             if (currentTree.ClaimWood()) {
                 woodNotice.enabled = false;
                 currentWood++;
@@ -105,6 +109,8 @@ public class Player : MonoBehaviour
         if (inWinTrigger) {
             FindObjectOfType<GameState>().WinGame(); 
         }
+        currentWood -= fireCost;
+        UpdateWoodCount();
     }
 
     public void WarmUp(float amount) {
@@ -116,6 +122,11 @@ public class Player : MonoBehaviour
         Fire f = other.GetComponent<Fire>();
         if (f) {
             WarmUp(f.heat * Time.deltaTime);
+        }
+        Tree t = other.GetComponent<Tree>();
+        if (t && t != currentTree) {
+            currentTree = t;
+            woodNotice.enabled = true;
         }
     }
 
@@ -147,5 +158,9 @@ public class Player : MonoBehaviour
 
     public void UpdateWoodCount() {
         woodCount.text = "Wood: " + currentWood;
+    }
+
+    public bool CanBuildFire() {
+        return currentWood >= fireCost;
     }
 }
