@@ -43,7 +43,6 @@ public class Player : MonoBehaviour
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
         AkSoundEngine.SetRTPCValue("Warmth", ((1.0f - completed) * 100.0f));
-        Debug.Log((1.0f - completed) * 100.0f);
     }
 
     // Update is called once per frame
