@@ -67,6 +67,10 @@ public class Player : MonoBehaviour
                 UpdateWoodCount();
             }
         }
+        if (inWinTrigger) {
+            woodNotice.enabled = true;
+            woodNotice.text = "Build a fire to signal for rescue!";
+        }
     }
 
     // Update is called once per frame

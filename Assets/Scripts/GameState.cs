@@ -29,6 +29,8 @@ public class GameState : MonoBehaviour
 
     private bool finished;
 
+    private float playTime;
+
     private bool playerActive;
     // Start is called before the first frame update
     void Start() {
@@ -40,6 +42,7 @@ public class GameState : MonoBehaviour
         SwitchActive();
 
         currentFadeOutTime = 0f;
+        playTime = 0f;
     }
 
     // Update is called once per frame
@@ -62,6 +65,7 @@ public class GameState : MonoBehaviour
                 endText.color = textColor;
             }
         }
+        playTime += Time.deltaTime;
     }
 
     public void SwitchActive() {
@@ -102,7 +106,7 @@ public class GameState : MonoBehaviour
         playerActive = false;
         player.active = false;
 
-        endText.text = "You signalled for help!\nYou succesfully escaped\n\nPress Backspace to play again";
+        endText.text = "You signalled for help!\nYou succesfully escaped in \n"+playTime+ "seconds!\n\nPress Backspace to play again";
         Debug.Log("Game won!");
     }
 
