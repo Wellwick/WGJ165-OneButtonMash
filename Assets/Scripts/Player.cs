@@ -19,7 +19,19 @@ public class Player : MonoBehaviour
     private Image tempFill;
 
     [SerializeField]
+    private Text woodNotice, woodCount;
+
+    [SerializeField]
     private GameObject firePrefab;
+
+
+    [SerializeField]
+    private int fireCost = 5;
+
+    private Tree currentTree;
+    private int currentWood = 0;
+
+    private bool inWinTrigger;
 
     private Rigidbody rigidbody;
 
@@ -36,13 +48,23 @@ public class Player : MonoBehaviour
         lastPos = transform.position;
         temperature = temperatureStart;
         AkSoundEngine.PostEvent("Ambient", gameObject);
+        inWinTrigger = false;
+        currentTree = null;
+        UpdateWoodCount();
     }
 
     private void Update() {
-        float completed = temperature / temperatureStart;
+        float completed = (temperature - temperatureMinimum) / (temperatureStart - temperatureMinimum);
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
         AkSoundEngine.SetRTPCValue("Warmth", ((1.0f - completed) * 100.0f));
+        if (active && Input.GetKeyDown(KeyCode.Space) && currentTree) {
+            if (currentTree.ClaimWood()) {
+                woodNotice.enabled = false;
+                currentWood++;
+                UpdateWoodCount();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -75,6 +97,10 @@ public class Player : MonoBehaviour
                 temperature -= Time.deltaTime;
             }
         }
+
+        if (temperature <= temperatureMinimum) {
+            FindObjectOfType<GameState>().LoseGame();
+        }
     }
 
     public void MakeFire() {
@@ -82,6 +108,11 @@ public class Player : MonoBehaviour
         // Put it at their feet
         pos.y -= 1f;
         Instantiate(firePrefab, pos, new Quaternion());
+        if (inWinTrigger) {
+            FindObjectOfType<GameState>().WinGame(); 
+        }
+        currentWood -= fireCost;
+        UpdateWoodCount();
     }
 
     public void WarmUp(float amount) {
@@ -94,5 +125,44 @@ public class Player : MonoBehaviour
         if (f) {
             WarmUp(f.heat * Time.deltaTime);
         }
+        Tree t = other.GetComponent<Tree>();
+        if (t && t != currentTree) {
+            currentTree = t;
+            woodNotice.enabled = true;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        WinTrigger w = other.GetComponent<WinTrigger>();
+        if (w) {
+            inWinTrigger = true;
+        }
+        Tree t = other.GetComponent<Tree>();
+        if (t) {
+            currentTree = t;
+            if (t.hasWood) {
+                woodNotice.enabled = true;
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        WinTrigger w = other.GetComponent<WinTrigger>();
+        if (w) {
+            inWinTrigger = false;
+        }
+        Tree t = other.GetComponent<Tree>();
+        if (t) {
+            currentTree = null;
+            woodNotice.enabled = false;
+        }
+    }
+
+    public void UpdateWoodCount() {
+        woodCount.text = "Wood: " + currentWood;
+    }
+
+    public bool CanBuildFire() {
+        return currentWood >= fireCost;
     }
 }

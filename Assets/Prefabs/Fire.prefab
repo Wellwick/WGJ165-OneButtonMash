@@ -4806,8 +4806,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ad544f94587534a8ad8faa4ee153ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 2
-  heatLossPerSecond: 0.15
+  heat: 2.5
+  heatLossPerSecond: 0.125
+  fireRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!198 &5815941023723076920
 ParticleSystem:
   m_ObjectHideFlags: 0
