@@ -932,9 +932,9 @@
 											<ClipList>
 												<MusicClip Name="sytnh2_110bpm" ID="{1D445DB2-EC84-4011-8C8E-BE66672175FF}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="13090.9090909091"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10500"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7017.47387255908"/>
 													</PropertyList>
 													<AudioSourceRef Name="sytnh2_110bpm" ID="{2CA67A27-0299-4DAD-ADCE-894AE993E027}"/>
 													<PropertyCurveList>
@@ -950,7 +950,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -969,7 +969,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -988,7 +988,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1003,9 +1003,9 @@
 											<ClipList>
 												<MusicClip Name="sytnh3_110bpm" ID="{83AA6411-4D46-4298-9066-93C0381B1566}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="13090.9090909091"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10500"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="6114.23466123959"/>
 													</PropertyList>
 													<AudioSourceRef Name="sytnh3_110bpm" ID="{BB296CC4-5EF0-4D40-B406-0CF14E10F483}"/>
 													<PropertyCurveList>
@@ -1021,7 +1021,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1040,7 +1040,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1059,7 +1059,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1074,9 +1074,9 @@
 											<ClipList>
 												<MusicClip Name="sytnh_110bpm" ID="{93D61B3A-0524-44BE-A788-2AA9BF2E77EA}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="13090.9090909091"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10500"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="4550.93602626355"/>
 													</PropertyList>
 													<AudioSourceRef Name="sytnh_110bpm" ID="{2B10FC57-E4A9-4933-9F95-501E51945E11}"/>
 													<PropertyCurveList>
@@ -1092,7 +1092,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1111,7 +1111,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1130,7 +1130,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.09091</XPos>
+																		<XPos>10.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
