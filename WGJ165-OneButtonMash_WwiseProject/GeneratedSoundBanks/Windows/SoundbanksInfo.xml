@@ -71,6 +71,10 @@
 							<ShortName>wgj165 music\strings2_110bpm_6B.wav</ShortName>
 							<Path>SFX\wgj165 music\strings2_110bpm_6B_9EDFC787.wem</Path>
 						</File>
+						<File Id="781514561" Language="SFX">
+							<ShortName>257661__speedygonzo__gong-hit.wav</ShortName>
+							<Path>SFX\257661__speedygonzo__gong-hit_9EDFC787.wem</Path>
+						</File>
 						<File Id="843084179" Language="SFX">
 							<ShortName>wgj165 music\horns_110bpm_5B.wav</ShortName>
 							<Path>SFX\wgj165 music\horns_110bpm_5B_9EDFC787.wem</Path>
@@ -115,6 +119,7 @@
 								<File Id="402954967"/>
 								<File Id="158740576"/>
 								<File Id="654242975"/>
+								<File Id="781514561"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{08049EC4-C023-43BC-BAFE-14B184B36776}">

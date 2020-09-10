@@ -716,7 +716,7 @@
 						</MusicPlaylistContainer>
 						<MusicSegment Name="Win" ID="{2CE95AE0-0774-4876-A9C3-275D21DB3E35}" ShortID="272376093">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="13090.9090909091"/>
+								<Property Name="EndPosition" Type="Real64" Value="27050.6666666667"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1142,6 +1142,105 @@
 											</ClipList>
 										</MusicTrackSequence>
 										<MusicTrackSequence Name="" ID="{EBB81E78-8FF0-4013-B0A6-2B80BD95F0D7}"/>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="257661__speedygonzo__gong-hit" ID="{B97CF5CA-41BE-4F6A-8001-922E6641445C}" ShortID="167678401">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="257661__speedygonzo__gong-hit" ID="{9982D512-A46A-44CD-8968-B5CC8B3C6608}">
+											<Language>SFX</Language>
+											<AudioFile>257661__speedygonzo__gong-hit.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="781514561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6A545817-92EA-4812-ACC1-B2073BB78A8D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D2739B97-4977-4CD9-B45D-5279A9020320}">
+											<ClipList>
+												<MusicClip Name="257661__speedygonzo__gong-hit" ID="{37132E15-A0A0-4941-8F06-4DA18F3D49C1}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="500"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10749.5754459922"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="4996.81690683991"/>
+														<Property Name="PlayAt" Type="Real64" Value="-500"/>
+													</PropertyList>
+													<AudioSourceRef Name="257661__speedygonzo__gong-hit" ID="{9982D512-A46A-44CD-8968-B5CC8B3C6608}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{140BD8A2-4C62-47B6-865B-CDF0E58F79A4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10.74958</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{6DAB556D-B98C-4297-ABB1-904C0427D64C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10.74958</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{DE5F01B9-A162-4F26-8698-960CBF67889C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10.74958</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
 							</ChildrenList>
