@@ -115,6 +115,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Dead" DurationType="OneShot" DurationMin="0.736135" DurationMax="0.736135">
+					<IncludedMemoryFiles>
+						<File Id="263770914" Language="SFX">
+							<ShortName>416838__alineaudio__grunt2-death-pain.wav</ShortName>
+							<Path>SFX\416838__alineaudio__grunt2-death-pain_5AFC109A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Fire" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="39.542500" DurationMax="65.890511">
 					<IncludedMemoryFiles>
 						<File Id="1009744732" Language="SFX">

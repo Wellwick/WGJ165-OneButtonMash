@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Ambient	
+	2044049779	Dead			\Default Work Unit\Dead	
 	2678880713	Fire			\Default Work Unit\Fire	
 	2727520598	FireSticks			\Default Work Unit\FireSticks	
 	2761700895	FireCreated			\Default Work Unit\FireCreated	
@@ -31,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	158740576	sytnh2_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\sytnh3_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\GameState\Music\wgj165 music\sytnh2_110bpm		166171
 	172475570	378641__13fpanska-kolar-jan__fire-stick-shake-2_04	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_9BE04CF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_04		4091
 	258508758	378641__13fpanska-kolar-jan__fire-stick-shake-2	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_77323960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2		4144
+	263770914	Dead	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\416838__alineaudio__grunt2-death-pain_5AFC109A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dead		7574
 	265239724	378641__13fpanska-kolar-jan__fire-stick-shake-2_05	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3E0F3DB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_05		3530
 	265728727	378641__13fpanska-kolar-jan__fire-stick-shake-2_06	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_11025481.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_06		3469
 	293373779	378641__13fpanska-kolar-jan__fire-stick-shake-2_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_8D6B6B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_01		4463

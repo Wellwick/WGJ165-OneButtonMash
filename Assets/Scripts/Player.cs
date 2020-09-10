@@ -101,6 +101,8 @@ public class Player : MonoBehaviour
         }
 
         if (temperature <= temperatureMinimum) {
+            AkSoundEngine.SetState("GameState", "End");
+            AkSoundEngine.PostEvent("Dead", gameObject);
             FindObjectOfType<GameState>().LoseGame();
         }
     }
