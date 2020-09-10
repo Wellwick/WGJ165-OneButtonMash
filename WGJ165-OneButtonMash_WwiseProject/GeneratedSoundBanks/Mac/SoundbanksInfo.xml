@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4183820092" Name="FootSteps_Snow" ObjectPath="\Events\Default Work Unit\FootSteps_Snow" DurationType="OneShot" DurationMin="0.390928" DurationMax="0.947288">
+					<IncludedMemoryFiles>
+						<File Id="53127304" Language="SFX">
+							<ShortName>336765__luminadii__snow-crunch-01.wav</ShortName>
+							<Path>SFX\336765__luminadii__snow-crunch-01_928044B4.wem</Path>
+						</File>
+						<File Id="65880294" Language="SFX">
+							<ShortName>336765__luminadii__snow-crunch-01.wav</ShortName>
+							<Path>SFX\336765__luminadii__snow-crunch-01_809974B9.wem</Path>
+						</File>
+						<File Id="323231869" Language="SFX">
+							<ShortName>336763__luminadii__snow-crunch-02.wav</ShortName>
+							<Path>SFX\336763__luminadii__snow-crunch-02_26485D33.wem</Path>
+						</File>
+						<File Id="373587070" Language="SFX">
+							<ShortName>336765__luminadii__snow-crunch-01.wav</ShortName>
+							<Path>SFX\336765__luminadii__snow-crunch-01_B15108D6.wem</Path>
+						</File>
+						<File Id="626135259" Language="SFX">
+							<ShortName>336765__luminadii__snow-crunch-01.wav</ShortName>
+							<Path>SFX\336765__luminadii__snow-crunch-01_6D3AE009.wem</Path>
+						</File>
+						<File Id="685274221" Language="SFX">
+							<ShortName>336763__luminadii__snow-crunch-02.wav</ShortName>
+							<Path>SFX\336763__luminadii__snow-crunch-02_FE1BA6B4.wem</Path>
+						</File>
+						<File Id="919643493" Language="SFX">
+							<ShortName>336763__luminadii__snow-crunch-02.wav</ShortName>
+							<Path>SFX\336763__luminadii__snow-crunch-02_4B93651F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

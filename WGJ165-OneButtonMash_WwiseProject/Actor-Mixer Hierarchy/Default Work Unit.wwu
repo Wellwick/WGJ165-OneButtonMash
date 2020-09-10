@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Snow Footsteps" ID="{24FB8279-6429-49C5-8E71-AA32F5D495AB}" ShortID="934926161">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>34</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CEAF2DA1-9263-4E94-8063-259D3A046E5C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-13"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{54C7AB0A-2FB6-450B-93A1-9BD6386CE061}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-455"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{69DC91A4-797C-410B-A156-38C44D3C4DFF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="336765__luminadii__snow-crunch-01" ID="{819F40A4-9990-4F97-AB10-FC1D22832E20}" ShortID="249590088">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336765__luminadii__snow-crunch-01" ID="{7A60370F-F019-4CE4-AE4A-D566518050A6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.226598452052998"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.550310526414422"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.550310526414423"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336765__luminadii__snow-crunch-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="53127304"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336765__luminadii__snow-crunch-01" ID="{7A60370F-F019-4CE4-AE4A-D566518050A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336763__luminadii__snow-crunch-02" ID="{B1C62B38-38E2-4AF9-AC18-CD87D0CA6A07}" ShortID="34475836">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336763__luminadii__snow-crunch-02" ID="{D7E9CDE5-6FC6-4B32-B653-1110C82679C1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.80428402766065"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.19521223365379"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336763__luminadii__snow-crunch-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="323231869"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336763__luminadii__snow-crunch-02" ID="{D7E9CDE5-6FC6-4B32-B653-1110C82679C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336763__luminadii__snow-crunch-02_01" ID="{4C20F03C-372D-4357-B95E-CB86AAA1BDBA}" ShortID="824699067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336763__luminadii__snow-crunch-02" ID="{4AC948EE-4479-4CFD-8C96-AB971900A320}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.110261801690373"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.180428402766065"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.59854425516763"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.02956766177545"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336763__luminadii__snow-crunch-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="685274221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336763__luminadii__snow-crunch-02" ID="{4AC948EE-4479-4CFD-8C96-AB971900A320}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336763__luminadii__snow-crunch-02_02" ID="{1D622C70-4C26-489F-98FF-26938E49EA8A}" ShortID="945598465">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336763__luminadii__snow-crunch-02" ID="{6E385E7F-E9A9-4589-954E-3E6B513ECA00}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.240571203688087"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.70116227207136"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.15223327898653"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336763__luminadii__snow-crunch-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="919643493"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336763__luminadii__snow-crunch-02" ID="{6E385E7F-E9A9-4589-954E-3E6B513ECA00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336765__luminadii__snow-crunch-01_01" ID="{1AA80BF9-1AE7-4163-97A4-C21F25EE9B0B}" ShortID="101515301">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336765__luminadii__snow-crunch-01" ID="{1B58375D-6F4C-462A-A61D-B1B561558462}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.226598452052998"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.550310526414422"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.485568111542138"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.13299226026499"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336765__luminadii__snow-crunch-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373587070"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336765__luminadii__snow-crunch-01" ID="{1B58375D-6F4C-462A-A61D-B1B561558462}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336765__luminadii__snow-crunch-01_02" ID="{8A0DF948-251A-4F5F-99C5-1CEBF1908630}" ShortID="907842359">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336765__luminadii__snow-crunch-01" ID="{47780944-593E-4708-98A9-8498DFDB1655}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.226598452052998"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.550310526414422"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.1815490714192"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.89371563501434"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336765__luminadii__snow-crunch-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65880294"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336765__luminadii__snow-crunch-01" ID="{47780944-593E-4708-98A9-8498DFDB1655}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="336765__luminadii__snow-crunch-01_03" ID="{B30C4935-0750-4768-B1F8-86988C29CEEE}" ShortID="1018174389">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336765__luminadii__snow-crunch-01" ID="{47389E3C-D690-4E73-BEE5-C7C5D696FD45}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.226598452052998"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.550310526414422"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.84515882386012"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.57351099117333"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>336765__luminadii__snow-crunch-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626135259"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336765__luminadii__snow-crunch-01" ID="{47389E3C-D690-4E73-BEE5-C7C5D696FD45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

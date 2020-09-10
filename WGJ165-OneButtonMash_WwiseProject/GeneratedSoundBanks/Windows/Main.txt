@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4183820092	FootSteps_Snow			\Default Work Unit\FootSteps_Snow	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53127304	336765__luminadii__snow-crunch-01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_928044B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01		11509
+	65880294	336765__luminadii__snow-crunch-01_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_809974B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_02		14434
+	323231869	336763__luminadii__snow-crunch-02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_26485D33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02		10197
+	373587070	336765__luminadii__snow-crunch-01_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_B15108D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_01		12650
+	626135259	336765__luminadii__snow-crunch-01_03	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336765__luminadii__snow-crunch-01_6D3AE009.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_03		14539
+	685274221	336763__luminadii__snow-crunch-02_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_FE1BA6B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_01		6984
+	919643493	336763__luminadii__snow-crunch-02_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\336763__luminadii__snow-crunch-02_4B93651F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_02		9511
+

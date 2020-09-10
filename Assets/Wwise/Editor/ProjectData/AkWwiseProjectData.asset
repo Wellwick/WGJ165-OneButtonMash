@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef14bdd73db59b4f9709b2c21e7dd8a, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b2beb7afc9246a4ca01c3fb58d148e68
+    GuidInternal: 
+    m_lastTime: -8586018699046175103
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d76756b3c6747744891ea39081d95354
+    GuidInternal: 
+    m_lastTime: -8586018699046250166
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e24dac750cc42b42a5ea48225eba0fec
+    GuidInternal: 
+    m_lastTime: -8586018690550633606
+    List:
+    - name: Main
+      guid: 0fe9fd962ea9dc4e8ac0ae56e1a02b47
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 99556c1d80d976408b1e1338f6e4e56a
+    GuidInternal: 
+    m_lastTime: -8586018690550688654
+    List:
+    - name: FootSteps_Snow
+      guid: e2857db064e6a54c840e3af735ac3533
+      id: 4183820092
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootSteps_Snow
+        ObjectType: 3
+      Path: Default Work Unit\FootSteps_Snow
+      maxAttenuation: 0
+      maxDuration: 0.947288
+      minDuration: 0.390928
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 32f9b5e71ef2f3488f2f29a1a1a6ad01
+    GuidInternal: 
+    m_lastTime: -8586018699046095041
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: efa40591e68f214690065c6b626974b3
+    GuidInternal: 
+    m_lastTime: -8586018699046150081
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: bfce40656c9d0049a9f917903474e39e
+    GuidInternal: 
+    m_lastTime: -8586018699046205132
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 7808a225576e744a9917eef70c47fb94
+    GuidInternal: 
+    m_lastTime: -8586018699045749729
+    List: []
+  ExpandedItems:
+  - /WGJ165-OneButtonMash_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
