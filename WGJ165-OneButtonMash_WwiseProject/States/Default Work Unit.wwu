@@ -7,7 +7,8 @@
 					<ChildrenList>
 						<State Name="None" ID="{93F6B3C0-F707-47EA-9747-9774E31C78B3}"/>
 						<State Name="Play" ID="{4DB74ED6-BF28-4C73-9DA3-66A2A9275284}"/>
-						<State Name="End" ID="{5047E2E8-E940-48BC-83D4-7C9DC6CF2121}"/>
+						<State Name="Win" ID="{5047E2E8-E940-48BC-83D4-7C9DC6CF2121}"/>
+						<State Name="Lose" ID="{08049EC4-C023-43BC-BAFE-14B184B36776}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

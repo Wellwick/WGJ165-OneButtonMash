@@ -88,18 +88,7 @@
 						<Action Name="" ID="{C34251A3-59C9-408B-995D-AE6BC9663CA4}" ShortID="1001672237">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="End" ID="{2CE95AE0-0774-4876-A9C3-275D21DB3E35}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Dead" ID="{97C9BF1D-044B-4720-9000-3800C0C66101}">
-					<ChildrenList>
-						<Action Name="" ID="{39489D5F-9482-4965-AC4F-1B37941BDE73}" ShortID="80552369">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dead" ID="{3B5663E0-80D3-4981-B096-1983AF3BF179}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+									<ObjectRef Name="Win" ID="{2CE95AE0-0774-4876-A9C3-275D21DB3E35}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

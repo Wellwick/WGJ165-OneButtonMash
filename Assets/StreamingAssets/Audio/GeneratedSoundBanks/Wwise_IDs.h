@@ -14,7 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENT = 77978275U;
-        static const AkUniqueID DEAD = 2044049779U;
         static const AkUniqueID FIRE = 2678880713U;
         static const AkUniqueID FIRECREATED = 2761700895U;
         static const AkUniqueID FIRESTICKS = 2727520598U;
@@ -30,9 +29,10 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID LOSE = 221232726U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID PLAY = 1256202815U;
+                static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace GAMESTATE
 

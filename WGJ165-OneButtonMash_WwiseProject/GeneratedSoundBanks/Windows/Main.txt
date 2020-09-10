@@ -1,6 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Ambient	
-	2044049779	Dead			\Default Work Unit\Dead	
 	2678880713	Fire			\Default Work Unit\Fire	
 	2727520598	FireSticks			\Default Work Unit\FireSticks	
 	2761700895	FireCreated			\Default Work Unit\FireCreated	
@@ -11,8 +10,9 @@ State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
-	529726532	End	GameState			
+	221232726	Lose	GameState			
 	748895195	None	GameState			
+	979765101	Win	GameState			
 	1256202815	Play	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -32,7 +32,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	158740576	sytnh2_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\wgj165 music\sytnh3_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\GameState\Music\wgj165 music\sytnh2_110bpm		166171
 	172475570	378641__13fpanska-kolar-jan__fire-stick-shake-2_04	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_9BE04CF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_04		4091
 	258508758	378641__13fpanska-kolar-jan__fire-stick-shake-2	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_77323960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2		4144
-	263770914	Dead	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\416838__alineaudio__grunt2-death-pain_5AFC109A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dead		7574
 	265239724	378641__13fpanska-kolar-jan__fire-stick-shake-2_05	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3E0F3DB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_05		3530
 	265728727	378641__13fpanska-kolar-jan__fire-stick-shake-2_06	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_11025481.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_06		3469
 	293373779	378641__13fpanska-kolar-jan__fire-stick-shake-2_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_8D6B6B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_01		4463
@@ -58,4 +57,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1009744732	74963__zmb94__campfire-1	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\74963__zmb94__campfire-1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire\74963__zmb94__campfire-1		909288
 	1040487628	strings2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\wgj165 music\strings3_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\GameState\Music\wgj165 music\strings2_110bpm_6B		181643
 	1054230325	horns2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\wgj165 music\horns2_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\GameState\Music\wgj165 music\horns2_110bpm_6B		174092
+	1073058718	416838__alineaudio__grunt2-death-pain	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Windows\SFX\416838__alineaudio__grunt2-death-pain_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\GameState\Dead\416838__alineaudio__grunt2-death-pain		13159
 

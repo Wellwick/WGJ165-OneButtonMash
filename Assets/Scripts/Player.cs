@@ -101,8 +101,7 @@ public class Player : MonoBehaviour
         }
 
         if (temperature <= temperatureMinimum) {
-            AkSoundEngine.SetState("GameState", "End");
-            AkSoundEngine.PostEvent("Dead", gameObject);
+            AkSoundEngine.SetState("GameState", "Lose");
             FindObjectOfType<GameState>().LoseGame();
         }
     }
@@ -114,7 +113,7 @@ public class Player : MonoBehaviour
         Instantiate(firePrefab, pos, new Quaternion());
         if (inWinTrigger) {
             FindObjectOfType<GameState>().WinGame();
-            AkSoundEngine.SetState("GameState", "End");
+            AkSoundEngine.SetState("GameState", "Win");
         }
         currentWood -= fireCost;
         UpdateWoodCount();
