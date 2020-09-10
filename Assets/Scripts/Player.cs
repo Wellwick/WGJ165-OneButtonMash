@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,8 +11,12 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float acceleration;
 
+    public float temperatureStart, temperatureMinimum;
+
+    private float temperature;
+
     [SerializeField]
-    private float energy;
+    private Image tempFill;
 
     [SerializeField]
     private GameObject firePrefab;
@@ -24,6 +29,14 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        temperature = temperatureStart;
+    }
+
+    private void Update() {
+        float completed = temperature / temperatureStart;
+        //Debug.Log("Temperature is currently " + completed);
+        tempFill.fillAmount = completed;
+        tempFill.color = Color.Lerp(Color.cyan, Color.red, temperature / temperatureStart);
     }
 
     // Update is called once per frame
@@ -36,7 +49,7 @@ public class Player : MonoBehaviour
             velocity.x = Mathf.Clamp(velocity.x + (acceleration * Time.deltaTime * movement), -topSpeed, topSpeed);
             rigidbody.velocity = velocity;
             if (movement != 0f) {
-                energy -= Time.deltaTime;
+                temperature -= Time.deltaTime;
             }
         }
     }
@@ -46,5 +59,17 @@ public class Player : MonoBehaviour
         // Put it at their feet
         pos.y -= 1f;
         Instantiate(firePrefab, pos, new Quaternion());
+    }
+
+    public void WarmUp(float amount) {
+        Debug.Log("Warming up " + amount);
+        temperature = Mathf.Clamp(temperature + amount, temperatureMinimum, temperatureStart);
+    }
+
+    private void OnTriggerStay(Collider other) {
+        Fire f = other.GetComponent<Fire>();
+        if (f) {
+            WarmUp(f.heat * Time.deltaTime);
+        }
     }
 }
