@@ -4763,8 +4763,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5815941023723076921}
+  - component: {fileID: -1700056369451024810}
   - component: {fileID: 5815941023723076920}
   - component: {fileID: 5815941023723076919}
+  - component: {fileID: -6796202513714522999}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -4792,6 +4794,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1700056369451024810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5815941023723076918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12ad544f94587534a8ad8faa4ee153ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 2
+  heatLossPerSecond: 0.2
 --- !u!198 &5815941023723076920
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -9514,6 +9530,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!135 &-6796202513714522999
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5815941023723076918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5815941024253463953
 GameObject:
   m_ObjectHideFlags: 0
@@ -9604,7 +9633,7 @@ GameObject:
   - component: {fileID: 5815941024445780577}
   - component: {fileID: 5815941024445780578}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
