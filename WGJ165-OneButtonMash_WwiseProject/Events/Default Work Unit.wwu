@@ -47,6 +47,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambient" ID="{6736DD2E-3CB3-4CED-979F-0980CE261A65}">
+					<ChildrenList>
+						<Action Name="" ID="{39E77797-DDD2-459C-98A3-F30A8EB0483A}" ShortID="1061744961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{BE74F9AE-AEBA-4631-8AC2-F0CA4048E17E}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D464BC0B-D31C-4A52-826B-FCD0FCCCF6A8}" ShortID="373563128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{C4619CC5-F90A-49DC-8525-7C8793085444}" WorkUnitID="{8B5B4CA6-A404-482B-B802-9D1E20882BF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78377F43-2456-4BC2-8047-AEA8CB94DF71}" ShortID="311923662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{CF3A4D67-920B-4765-BB83-0376463B5D53}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

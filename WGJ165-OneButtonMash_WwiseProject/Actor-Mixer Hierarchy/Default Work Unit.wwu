@@ -34,7 +34,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-9</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -51,6 +51,17 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Compressor_(Custom)" ID="{EAADF6FF-0524-4A2F-A258-0C0AEF54EFC1}" ShortID="91205230" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<PropertyList>
+										<Property Name="OutputGain" Type="Real32" Value="-0.4"/>
+										<Property Name="Ratio" Type="Real32" Value="2"/>
+										<Property Name="Threshold" Type="Real32" Value="-31.9"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
@@ -661,6 +672,16 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Compressor_(Custom)" ID="{4C15844E-35B7-4256-BC2B-A2439FE7806E}" ShortID="235102042" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<PropertyList>
+										<Property Name="Ratio" Type="Real32" Value="2.3"/>
+										<Property Name="Threshold" Type="Real32" Value="-46.1"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
 						</Reference>
@@ -705,6 +726,208 @@
 					</ChildrenList>
 					<Playlist>
 						<ItemRef Name="74963__zmb94__campfire-1" ID="{B1473C1A-F7E3-4348-9BE4-9C9D74616B63}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Wind" ID="{BE74F9AE-AEBA-4631-8AC2-F0CA4048E17E}" ShortID="337410491">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{37FBDC76-3545-406F-BAC4-043417FFF079}" ShortID="1018821194">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Warmth" ID="{0AA4BE2B-ED04-4F3F-AC69-983204F9E04E}" WorkUnitID="{E7B5F932-F21E-48F3-8F2F-29A1A1A6AD01}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6EF9B89D-A7DA-47B1-ADD2-E0801D1BB9C0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>17</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-57</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{C3AA69AE-8C5D-4F2B-9987-4F65B9E9E59A}" ShortID="143950189">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Warmth" ID="{0AA4BE2B-ED04-4F3F-AC69-983204F9E04E}" WorkUnitID="{E7B5F932-F21E-48F3-8F2F-29A1A1A6AD01}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DFA48D83-1542-4F12-8158-1E36BF0A7DD2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.10528</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>40</XPos>
+												<YPos>5.93104</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>90</XPos>
+												<YPos>13.27611</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>16.79794</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wind" ID="{76CC2A27-1211-46CC-B1F3-9440D5E87987}" ShortID="182791309">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="253899__tim-kahn__wind-and-trees-and-snow" ID="{CE495314-5378-4AED-93CE-2722711F0842}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.47807108729339"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="21.7959121470386"/>
+										<Property Name="TrimEnd" Type="Real64" Value="95.5310191976584"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>253899__tim-kahn__wind-and-trees-and-snow.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="108695778"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="253899__tim-kahn__wind-and-trees-and-snow" ID="{CE495314-5378-4AED-93CE-2722711F0842}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Wind" ID="{76CC2A27-1211-46CC-B1F3-9440D5E87987}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Heartbeat" ID="{CF3A4D67-920B-4765-BB83-0376463B5D53}" ShortID="203984709">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{4BA30948-6A40-4C48-8394-37665CEB19EF}" ShortID="475424656">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Warmth" ID="{0AA4BE2B-ED04-4F3F-AC69-983204F9E04E}" WorkUnitID="{E7B5F932-F21E-48F3-8F2F-29A1A1A6AD01}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F368412E-CC85-4931-AF8A-56BB88BE55F3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>60.62992</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>79.92125</XPos>
+												<YPos>-11.147</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>91.63386</XPos>
+												<YPos>13.27611</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>13.27611</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Heartbeat" ID="{044B410C-E55A-4BF3-82EB-934563060DEE}" ShortID="871203996">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910ADC8B-2536-4D20-A36F-91B514643ECC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B35667D7-74C6-4477-891E-A39081D95354}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="332820__loudernoises__heartbeat-80bpm" ID="{CB8BFA7C-7759-4227-B113-FD0E3E2063D3}">
+									<Language>SFX</Language>
+									<AudioFile>332820__loudernoises__heartbeat-80bpm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668651303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="332820__loudernoises__heartbeat-80bpm" ID="{CB8BFA7C-7759-4227-B113-FD0E3E2063D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Heartbeat" ID="{044B410C-E55A-4BF3-82EB-934563060DEE}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>

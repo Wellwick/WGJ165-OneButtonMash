@@ -35,12 +35,15 @@ public class Player : MonoBehaviour
         rigidbody = GetComponent<Rigidbody>();
         lastPos = transform.position;
         temperature = temperatureStart;
+        AkSoundEngine.PostEvent("Ambient", gameObject);
     }
 
     private void Update() {
         float completed = temperature / temperatureStart;
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
+        AkSoundEngine.SetRTPCValue("Warmth", ((1.0f - completed) * 100.0f));
+        Debug.Log((1.0f - completed) * 100.0f);
     }
 
     // Update is called once per frame

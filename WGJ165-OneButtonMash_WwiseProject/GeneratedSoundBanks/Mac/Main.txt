@@ -1,27 +1,48 @@
 Event	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Ambient	
 	2678880713	Fire			\Default Work Unit\Fire	
 	2727520598	FireSticks			\Default Work Unit\FireSticks	
 	2761700895	FireCreated			\Default Work Unit\FireCreated	
 	4183820092	FootSteps_Snow			\Default Work Unit\FootSteps_Snow	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	2060306874	Warmth			\Default Work Unit\Warmth	
 	3324700884	FirePower			\Default Work Unit\FirePower	
 
+Effect plug-ins	ID	Name	Type				Notes
+	91205230	Wwise_Compressor_(Custom)	Wwise Compressor			
+	235102042	Wwise_Compressor_(Custom)	Wwise Compressor			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24869684	chimes_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\chimes_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\chimes_110bpm		61517
 	53127304	336765__luminadii__snow-crunch-01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336765__luminadii__snow-crunch-01_928044B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01		11509
 	65880294	336765__luminadii__snow-crunch-01_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336765__luminadii__snow-crunch-01_809974B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_02		14434
 	75522181	378641__13fpanska-kolar-jan__fire-stick-shake-2_03	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_D51618C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_03		3648
+	108695778	Wind	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\253899__tim-kahn__wind-and-trees-and-snow_814EBFED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\Wind		1422784
+	158740576	sytnh2_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\sytnh3_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\sytnh2_110bpm		166171
 	172475570	378641__13fpanska-kolar-jan__fire-stick-shake-2_04	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_9BE04CF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_04		4091
 	258508758	378641__13fpanska-kolar-jan__fire-stick-shake-2	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_77323960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2		4144
 	265239724	378641__13fpanska-kolar-jan__fire-stick-shake-2_05	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3E0F3DB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_05		3530
 	265728727	378641__13fpanska-kolar-jan__fire-stick-shake-2_06	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_11025481.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_06		3469
 	293373779	378641__13fpanska-kolar-jan__fire-stick-shake-2_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_8D6B6B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_01		4463
 	323231869	336763__luminadii__snow-crunch-02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336763__luminadii__snow-crunch-02_26485D33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02		10197
+	351239409	drum_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\drum_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\drum_110bpm		89737
+	357145713	strings2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\strings_110bpm_5B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\strings2_110bpm_6B		148287
 	373587070	336765__luminadii__snow-crunch-01_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336765__luminadii__snow-crunch-01_B15108D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_01		12650
+	402954967	sytnh2_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\sytnh2_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\sytnh2_110bpm		198816
 	425717141	378641__13fpanska-kolar-jan__fire-stick-shake-2_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\378641__13fpanska-kolar-jan__fire-stick-shake-2_3ED70241.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Stick\378641__13fpanska-kolar-jan__fire-stick-shake-2_02		4038
+	474811819	stringsEnd_110bpm_4B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\stringsEnd_110bpm_4B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\stringsEnd_110bpm_4B		119266
 	529392469	Fire Started	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\186374__samararaine__bonfire-being-lit_88EC814B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire Started		23105
 	626135259	336765__luminadii__snow-crunch-01_03	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336765__luminadii__snow-crunch-01_6D3AE009.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336765__luminadii__snow-crunch-01_03		14539
+	654242975	sytnh2_110bpm	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\sytnh_110bpm_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\sytnh2_110bpm		162617
+	668651303	Heartbeat	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\332820__loudernoises__heartbeat-80bpm_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat		98395
+	679160594	horns2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\horns3_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\horns2_110bpm_6B		170338
 	685274221	336763__luminadii__snow-crunch-02_01	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336763__luminadii__snow-crunch-02_FE1BA6B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_01		6984
+	715644257	hornsEnd_110bpm_4B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\hornsEnd_110bpm_4B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\hornsEnd_110bpm_4B		114715
+	753549156	strings2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\strings2_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\strings2_110bpm_6B		177569
+	843084179	horns2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\horns_110bpm_5B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\horns2_110bpm_6B		143738
 	919643493	336763__luminadii__snow-crunch-02_02	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\336763__luminadii__snow-crunch-02_4B93651F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow Footsteps\336763__luminadii__snow-crunch-02_02		9511
 	1009744732	74963__zmb94__campfire-1	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\74963__zmb94__campfire-1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire\74963__zmb94__campfire-1		909288
+	1040487628	strings2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\strings3_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\strings2_110bpm_6B		181643
+	1054230325	horns2_110bpm_6B	C:\Users\misun\Desktop\Early Projects\WGJ165-OneButtonMash\WGJ165-OneButtonMash_WwiseProject\.cache\Mac\SFX\wgj165 music\horns2_110bpm_6B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\wgj165 music\horns2_110bpm_6B		174092
 

@@ -10,6 +10,12 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="41"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Warmth" ID="{0AA4BE2B-ED04-4F3F-AC69-983204F9E04E}">
+					<PropertyList>
+						<Property Name="SlewRateDown" Type="Real64" Value="80"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
