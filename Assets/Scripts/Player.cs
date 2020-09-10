@@ -19,7 +19,13 @@ public class Player : MonoBehaviour
     private Image tempFill;
 
     [SerializeField]
+    private Text woodNotice, woodCount;
+
+    [SerializeField]
     private GameObject firePrefab;
+
+    private Tree currentTree;
+    private int currentWood = 0;
 
     private bool inWinTrigger;
 
@@ -38,12 +44,21 @@ public class Player : MonoBehaviour
         lastPos = transform.position;
         temperature = temperatureStart;
         inWinTrigger = false;
+        currentTree = null;
+        UpdateWoodCount();
     }
 
     private void Update() {
         float completed = (temperature - temperatureMinimum) / (temperatureStart - temperatureMinimum);
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
+        if (Input.GetKeyDown(KeyCode.Space) && currentTree) {
+            if (currentTree.ClaimWood()) {
+                woodNotice.enabled = false;
+                currentWood++;
+                UpdateWoodCount();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -109,6 +124,13 @@ public class Player : MonoBehaviour
         if (w) {
             inWinTrigger = true;
         }
+        Tree t = other.GetComponent<Tree>();
+        if (t) {
+            currentTree = t;
+            if (t.hasWood) {
+                woodNotice.enabled = true;
+            }
+        }
     }
 
     private void OnTriggerExit(Collider other) {
@@ -116,5 +138,14 @@ public class Player : MonoBehaviour
         if (w) {
             inWinTrigger = false;
         }
+        Tree t = other.GetComponent<Tree>();
+        if (t) {
+            currentTree = null;
+            woodNotice.enabled = false;
+        }
+    }
+
+    public void UpdateWoodCount() {
+        woodCount.text = "Wood: " + currentWood;
     }
 }
