@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1D6C5599-D980-4076-8B1E-1338F6E4E56A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FootSteps_Snow" ID="{B07D85E2-E664-4CA5-840E-3AF735AC3533}">
+					<ChildrenList>
+						<Action Name="" ID="{84B25C84-A43C-4CF3-B335-14EF0BCE1306}" ShortID="424355766">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Snow Footsteps" ID="{24FB8279-6429-49C5-8E71-AA32F5D495AB}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FireSticks" ID="{77770A2E-B86A-4E59-A6F9-E568299C3E2E}">
+					<ChildrenList>
+						<Action Name="" ID="{FD2D0D92-41AA-4F5A-804A-2153B2384EC4}" ShortID="182885014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire Stick" ID="{759AB681-0932-4585-863F-58C308E2EBDD}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FireCreated" ID="{7258AF8F-2064-4BFF-9F2A-FEDA7747CFF3}">
+					<ChildrenList>
+						<Action Name="" ID="{2BEA0637-C165-4BF8-9534-32BE8A3C0963}" ShortID="392738488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire Started" ID="{00DBC3AD-D19B-4245-9E78-8C135BDBCD2F}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire" ID="{1ACB900D-5C57-47A7-8E7B-7BC20D7DC583}">
+					<ChildrenList>
+						<Action Name="" ID="{52702444-2978-4431-AD9F-EC740648B303}" ShortID="438033112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire" ID="{BF727E24-BA1C-4E56-A63F-9C7CC047CD0E}" WorkUnitID="{7E3CC12F-0C55-4D5A-B220-88CB979AA92F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -14,6 +14,9 @@ public class Fire : MonoBehaviour
     private Light light;
 
     private Player player;
+    private uint fireID;
+
+    public AK.Wwise.RTPC fireRTPC;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,10 @@ public class Fire : MonoBehaviour
                 light = t.GetComponent<Light>();
             }
         }
+        fireID = AkSoundEngine.PostEvent("Fire", gameObject);
+        AkSoundEngine.SetRTPCValue("FirePower", 100.0f, gameObject);
+
+        //AkSoundEngine.SetRTPCValueByPlayingID("FirePower", fireID)
     }
 
     // Update is called once per frame
@@ -41,10 +48,16 @@ public class Fire : MonoBehaviour
         ParticleSystem.EmissionModule sEmission = smokeSystem.emission;
         sEmission.rateOverTime = Mathf.Clamp(heat * 30, 0, 60);
         light.intensity = Mathf.Clamp(heat * 0.5f, 0f, 3f);
+        if (light.intensity < 0.01) {
+            AkSoundEngine.StopPlayingID(fireID);
+        }
+        AkSoundEngine.SetRTPCValue("FirePower", light.intensity * 100.0f, gameObject);
     }
 
     public void AddLog() {
         heat = Mathf.Clamp(heat + 1, 0f, 10f);
         SetParticles();
     }
+
+    
 }

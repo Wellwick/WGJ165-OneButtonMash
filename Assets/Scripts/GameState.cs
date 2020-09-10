@@ -39,13 +39,13 @@ public class GameState : MonoBehaviour
         // Setup player!
         player.active = playerActive;
         playerCam.enabled = playerActive;
-        playerCam.GetComponent<AudioListener>().enabled = playerActive;
+        //playerCam.GetComponent<AudioListener>().enabled = playerActive;
 
         // Setup fireStart
         fireStart.ResetValues();
         fireStart.active = !playerActive;
         fireCam.enabled = !playerActive;
-        fireCam.GetComponent<AudioListener>().enabled = !playerActive;
+        //fireCam.GetComponent<AudioListener>().enabled = !playerActive;
 
     }
 

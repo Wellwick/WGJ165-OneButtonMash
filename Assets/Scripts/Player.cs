@@ -25,10 +25,15 @@ public class Player : MonoBehaviour
 
     public bool active;
 
+    private float time = 0.0f;
+    public float timeBetween = 0.5f;
+    private Vector3 lastPos;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        lastPos = transform.position;
         temperature = temperatureStart;
     }
 
@@ -41,6 +46,23 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        time += Time.deltaTime;
+
+        if (time >= Time.deltaTime) {
+            time = time - timeBetween;
+            //Debug.Log(transform.position);
+            if ((lastPos - transform.position).magnitude < 0.2) {
+                //Debug.Log("Not Moving");
+                
+            }
+            else {
+                AkSoundEngine.PostEvent("Footsteps_Snow", gameObject);
+                //Debug.Log((lastPos - transform.position).magnitude);
+            }
+            lastPos = transform.position;
+
+        }
+
         if (active) {
             float movement = Input.GetAxis("Horizontal");
             Vector3 velocity = rigidbody.velocity;
@@ -61,7 +83,7 @@ public class Player : MonoBehaviour
     }
 
     public void WarmUp(float amount) {
-        Debug.Log("Warming up " + amount);
+        //Debug.Log("Warming up " + amount);
         temperature = Mathf.Clamp(temperature + amount, temperatureMinimum, temperatureStart);
     }
 

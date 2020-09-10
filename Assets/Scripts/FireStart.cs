@@ -47,6 +47,7 @@ public class FireStart : MonoBehaviour
     {
         if (active) {
             if (Input.GetKeyDown(KeyCode.Space)) {
+                AkSoundEngine.PostEvent("FireSticks", gameObject);
                 ChangeDirection();
             }
             if (velocity.magnitude > currentHeat) {
@@ -66,6 +67,7 @@ public class FireStart : MonoBehaviour
             ParticleSystem.EmissionModule emission = ps.emission;
             emission.rateOverTime = currentHeat * 10;
             if (currentHeat > thresholdHeat) {
+                AkSoundEngine.PostEvent("FireCreated", gameObject);
                 gs.MakeFire();
             }
         }
