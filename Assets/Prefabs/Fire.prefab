@@ -4807,7 +4807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heat: 2
-  heatLossPerSecond: 0.2
+  heatLossPerSecond: 0.15
 --- !u!198 &5815941023723076920
 ParticleSystem:
   m_ObjectHideFlags: 0

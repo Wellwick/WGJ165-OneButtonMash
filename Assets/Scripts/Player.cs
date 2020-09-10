@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
         float completed = temperature / temperatureStart;
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
-        tempFill.color = Color.Lerp(Color.cyan, Color.red, temperature / temperatureStart);
     }
 
     // Update is called once per frame
