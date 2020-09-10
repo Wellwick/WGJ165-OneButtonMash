@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject firePrefab;
 
+    private bool inWinTrigger;
+
     private Rigidbody rigidbody;
 
     public bool active;
@@ -35,10 +37,11 @@ public class Player : MonoBehaviour
         rigidbody = GetComponent<Rigidbody>();
         lastPos = transform.position;
         temperature = temperatureStart;
+        inWinTrigger = false;
     }
 
     private void Update() {
-        float completed = temperature / temperatureStart;
+        float completed = (temperature - temperatureMinimum) / (temperatureStart - temperatureMinimum);
         //Debug.Log("Temperature is currently " + completed);
         tempFill.fillAmount = completed;
     }
@@ -73,6 +76,10 @@ public class Player : MonoBehaviour
                 temperature -= Time.deltaTime;
             }
         }
+
+        if (temperature <= temperatureMinimum) {
+            FindObjectOfType<GameState>().LoseGame();
+        }
     }
 
     public void MakeFire() {
@@ -80,6 +87,9 @@ public class Player : MonoBehaviour
         // Put it at their feet
         pos.y -= 1f;
         Instantiate(firePrefab, pos, new Quaternion());
+        if (inWinTrigger) {
+            FindObjectOfType<GameState>().WinGame(); 
+        }
     }
 
     public void WarmUp(float amount) {
@@ -91,6 +101,20 @@ public class Player : MonoBehaviour
         Fire f = other.GetComponent<Fire>();
         if (f) {
             WarmUp(f.heat * Time.deltaTime);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        WinTrigger w = other.GetComponent<WinTrigger>();
+        if (w) {
+            inWinTrigger = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        WinTrigger w = other.GetComponent<WinTrigger>();
+        if (w) {
+            inWinTrigger = false;
         }
     }
 }
